@@ -16,10 +16,7 @@ export function BrowseContainer({ slides }) {
 
   const { firebase } = useContext(FirebaseContext);
 
-  const user = {
-    displayName: 'Abhishek',
-    photoURL: '2'
-  };
+  const user = firebase.auth().currentUser || {};
 
   useEffect(() => {
     setTimeout(() => {
