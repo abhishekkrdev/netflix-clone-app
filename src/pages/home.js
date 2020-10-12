@@ -10,7 +10,7 @@ function Home() {
           <Feature.Title>Unlimited films,Tv programmes and more.</Feature.Title>
           <Feature.SubTitle>Watch anywhere. Cancel at any time.</Feature.SubTitle>
           <OptForm>
-            <OptForm.Input placeholder='Email Adderess' />
+            <OptForm.Input placeholder='Email Address' />
             <OptForm.Button>Try it now</OptForm.Button>
             <OptForm.Break />
             <OptForm.Text>
