@@ -7,13 +7,12 @@ import 'firebase/auth';
 
 // We need a config here
 const config = {
-  apiKey: 'AIzaSyAzNOQIc9eZ9pTqVyAvgUKUCpcDr7rvfMM',
-  authDomain: 'netflix-e9567.firebaseapp.com',
-  databaseURL: 'https://netflix-e9567.firebaseio.com',
-  projectId: 'netflix-e9567',
-  storageBucket: 'netflix-e9567.appspot.com',
-  messagingSenderId: '765731289320',
-  appId: '1:765731289320:web:dc36b5c91830ba9ff4b15d'
+  apiKey: 'AIzaSyAnFqyG8eo6SEiam7zS2tl5G_8jrvECI8I',
+  authDomain: 'netflix-clone-2c12c.firebaseapp.com',
+  projectId: 'netflix-clone-2c12c',
+  storageBucket: 'netflix-clone-2c12c.appspot.com',
+  messagingSenderId: '1021521971354',
+  appId: '1:1021521971354:web:97d61c8d547250879b7723'
 };
 
 const firebase = Firebase.initializeApp(config);
